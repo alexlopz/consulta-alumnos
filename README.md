@@ -21,7 +21,7 @@ Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu máquina l
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/consulta-alumnos.git
+   git clone https://github.com/alexlopz/consulta-alumnos.git
    ```
 
 - Navegar al directorio del proyecto:
@@ -90,6 +90,8 @@ El componente `ConsultaAlumnos` utiliza el hook `useState` de React para manejar
 
 - El formulario se renderiza con los campos de entrada y los botones "Buscar" y "Limpiar".
 - El campo de carnet es editable por el usuario, mientras que los campos de nombres, correo electrónico y sección son de solo lectura y se llenan automáticamente después de una búsqueda exitosa.
+
+#### Código del Componente
 
 ```js
 import React, { useState } from "react";
